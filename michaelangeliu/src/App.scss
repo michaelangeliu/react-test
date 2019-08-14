@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -29,5 +29,39 @@
   }
   to {
     transform: rotate(360deg);
+  }
+} */
+
+.App {
+  font-family: Garamond;
+  text-align: center;
+  width: 75%;
+  margin: 0 auto;
+}
+
+article.experience {
+  position: relative;
+  margin-bottom: 1rem;
+  p {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  span {
+    display: inline-block;
+    &.organization {
+      font-weight: bold;
+    }
+    &.location {
+    }
+    &.title {
+      font-style: italic;
+    }
+    &.time-period {
+    }
+  }
+  > ul {
+    margin: 0.25rem 0 0.5rem;
+    text-align: left;
   }
 }
