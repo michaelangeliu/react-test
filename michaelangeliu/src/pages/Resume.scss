@@ -1,0 +1,42 @@
+@import '../styles/variables.scss';
+
+.resume {
+  position: relative;
+  width: 80%;
+  max-width: 800px;
+  margin: 2.5% auto;
+  padding: 2.5% 5%;
+  background: white;
+  font-family: Garamond;
+  color: $grey-color-dark;
+  text-align: center;
+  box-shadow: $grey-color 2px 2px 5px;
+}
+
+article.experience {
+  position: relative;
+  margin-bottom: 1rem;
+  p {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  span {
+    display: inline-block;
+    &.organization {
+      font-weight: bold;
+    }
+    &.location {
+    }
+    &.title {
+      font-style: italic;
+    }
+    &.time-period {
+    }
+  }
+  > ul {
+    margin: 0.25rem 0 0.5rem;
+    padding-right: 7.5rem;
+    text-align: left;
+  }
+}

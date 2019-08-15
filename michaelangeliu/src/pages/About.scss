@@ -1,0 +1,16 @@
+@import '../styles/variables.scss';
+
+.about {
+  .top-nav {
+    position: relative;
+    min-height: 3.5rem;
+
+    .site-title {
+      float: left;
+      font-size: 2rem;
+    }
+    .navigation {
+      float: right;
+    }
+  }
+}
