@@ -11,6 +11,7 @@ function Resume() {
         <section className="summary">
           <summary>Detail-oriented Software Developer with a 5+ years experience designing and implementing holistic solutions effectively and efficiently. Developed web applications for multi-national brands. Prototyped new features for an online CRM tool. Skilled in creating new documentation to improve long-term code maintainability, development process, and product stewardship.</summary>
         </section>
+        ~
         <section className="work-experience">
           <h3>Work Experience</h3>
           <article className="experience">
