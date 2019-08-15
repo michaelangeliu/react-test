@@ -29,6 +29,9 @@ body {
   color: $text-color;
   background: url('/images/background.png'), $background-color;
   -webkit-text-size-adjust: 100%;
+  @media print {
+    background: white;
+  }
 }
 #root {
   height: 100%;

@@ -2,15 +2,28 @@
 
 .resume {
   position: relative;
-  width: 80%;
-  max-width: 800px;
-  margin: 2.5% auto;
-  padding: 2.5% 3.5%;
-  background: white;
   font-family: Garamond;
   color: $grey-color-dark;
   text-align: center;
-  box-shadow: $grey-color 2px 2px 5px;
+  @media screen {
+    box-shadow: $grey-color 2px 2px 5px;
+    width: 80%;
+    max-width: 800px;
+    margin: 2.5% auto;
+    padding: 2.5% 3.5%;
+    background: white;
+  }
+  @media print {
+    font-size: 12px;
+    width: 100%;
+
+    h1, h2, h3, h4, h5 {
+      page-break-after: avoid;
+    }
+    section, table, figure {
+      page-break-inside: avoid;
+    }
+  }
 }
 
 article.experience {
@@ -40,4 +53,11 @@ article.experience {
     padding-right: 7.5rem;
     text-align: left;
   }
+}
+
+@page {
+  size: 8.5in 11in;
+  margin: 0.25in 0.5in;
+
+  background: white;
 }
