@@ -27,7 +27,7 @@
 }
 
 .hidden {
-  display: none;
+  display: none !important;
 }
 
 section {
@@ -71,6 +71,22 @@ article.experience {
     padding-left: 1.5rem;
     padding-right: 7.5rem;
     text-align: left;
+    &.comma-list {
+      display: inline;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      text-align: center;
+      > li {
+        display: inline;
+        &::after {
+          content: ", ";
+        }
+        &:last-child::after {
+          content: "";
+        }
+      }
+    }
   }
 }
 
@@ -87,11 +103,11 @@ article.experience {
         width: 40%;
       }
     }
-    .school {
+    .institution {
       font-size: 1rem;
       font-weight: 500;
     }
-    .degree {
+    .degree-focus {
       font-size: 0.85rem;
     }
   }

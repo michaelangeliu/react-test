@@ -69,6 +69,23 @@ function Resume() {
               <li className="hidden">Applied troubleshooting processes to fix existing code and content on brand web pages.</li>
             </ul>
           </article>
+          <article className="experience hidden">
+            <p>
+              <span className="organization">Washington University Residential Life</span>
+              <span className="location">Saint Louis, MO</span>
+            </p>
+            <p>
+              <span className="title">Residential Advisor</span>
+              <span className="time-period">Aug 2012 – May 2014</span>
+            </p>
+            <ul>
+              <li>Supported and advised 80 residents by creating programs to engage students.</li>
+              <li>Trained for 250+ hours on topics including social activism, conflict resolution, event planning, and community building.</li>
+              <li>Served an on-call responder for crises and emergencies.</li>
+              <li>Assisted in designing recruitment posters and improving the RA selection process.</li>
+              <li>Facilitated group and individual interviews for potential RA candidates.</li>
+            </ul>
+          </article>
         </section>
         <section className="leadership">
           <h2>Leadership Experience</h2>
@@ -106,24 +123,71 @@ function Resume() {
         </section>
         <section className="other-experience">
           <section className="education">
-            <h2>Education</h2>
-            <article className="experience">
-              <div className="left">
-                <p className="school">Washington University in St. Louis</p>
-                <p className="degree">B.S. in Computer Science, 2014</p>
-                <p className="degree">Minor in Psychology</p>
-              </div>
-              <div className="right">
-                <p className="degree">Cumulative GPA: 3.48/4.00</p>
-                <p className="degree">Major GPA: 3.78/4.00</p>
-              </div>
-            </article>
+            <section className="degree">
+              <h2>Education</h2>
+              <article className="experience">
+                <div className="left">
+                  <p className="institution">Washington University in St. Louis</p>
+                  <p className="degree-focus">B.S. in Computer Science, 2014</p>
+                  <p className="degree-focus">Minor in Psychology</p>
+                </div>
+                <div className="right">
+                  <p className="degree-focus">Cumulative GPA: 3.48/4.00</p>
+                  <p className="degree-focus">Major GPA: 3.78/4.00</p>
+                  <p className="hidden">Dean’s List – Fall 2012, Fall 2013, and Spring 2014</p>
+                </div>
+              </article>
+            </section>
+            <section className="coursework hidden">
+              <h2>Relevant Course Work</h2>
+              <article className="experience">
+                <ul className="comma-list">
+                  <li>Technical Writing</li>
+                  <li>Object-Oriented Software Development</li>
+                  <li>Formal Languages and Automata</li>
+                  <li>Algorithms and Data Structures</li>
+                  <li>Rapid Prototype Development and Creative Programming</li>
+                  <li>Programming Systems and Languages</li>
+                  <li>Social Networks Analysis</li>
+                  <li>Embedded Computing Systems</li>
+                  <li>Cognitive Psychology</li>
+                  <li>Social Psychology.</li>
+                </ul>
+              </article>
+            </section>
           </section>
           <section className="skills">
-            <h2>Technical Skills</h2>
-            <article className="experience">
-              <p>Javascript, HTML, CSS, GIT, SQL, Amazon Web Services, Python, Ruby</p>
-            </article>
+            <section className="technical">
+              <h2>Technical Skills</h2>
+              <article className="experience">
+                <ul className="comma-list">
+                  <li>Javascript</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>GIT</li>
+                  <li>SQL</li>
+                  <li>Amazon Web Services</li>
+                  <li>Python</li>
+                  <li>Ruby</li>
+                  <li className="hidden">React</li>
+                  <li className="hidden">Redux</li>
+                  <li className="hidden">Node</li>
+                  <li className="hidden">MySQL</li>
+                  <li className="hidden">PostgreSQL</li>
+                  <li className="hidden">Bootstrap</li>
+                  <li className="hidden">jQuery</li>
+                  <li className="hidden">Angular</li>
+                  <li className="hidden">Java</li>
+                </ul>
+              </article>
+            </section>
+            <section className="foreign-language hidden">
+              <h2>Foreign Language</h2>
+              <article className="experience">
+                <p>Chinese – Speaking/Listening Fluent</p>
+                <p>Spanish – 4 years of HS</p>
+              </article>
+            </section>
           </section>
         </section>
       </main>
