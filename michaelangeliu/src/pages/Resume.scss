@@ -26,6 +26,18 @@
   }
 }
 
+.hidden {
+  display: none;
+}
+
+section {
+  h2 {
+    font-variant: small-caps;
+    text-decoration: underline;
+    margin-bottom: 0.25rem;
+  }
+}
+
 article.experience {
   position: relative;
   margin-bottom: 1rem;
@@ -37,14 +49,21 @@ article.experience {
   span {
     display: inline-block;
     &.organization {
+      font-size: 1.15rem;
       font-weight: bold;
+      em {
+        font-weight: normal;
+    }
     }
     &.location {
+      font-size: 1rem;
     }
     &.title {
+      font-size: 1rem;
       font-style: italic;
     }
     &.time-period {
+      font-size: 0.85rem;
     }
   }
   > ul {
@@ -57,7 +76,7 @@ article.experience {
 
 @page {
   size: 8.5in 11in;
-  margin: 0.25in 0.5in;
+  margin: 0.7in 1in;
 
   background: white;
 }
