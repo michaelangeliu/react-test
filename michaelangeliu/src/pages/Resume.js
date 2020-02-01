@@ -104,8 +104,27 @@ function Resume() {
             </ul>
           </article>
         </section>
-        <section>
-
+        <section className="other-experience">
+          <section className="education">
+            <h2>Education</h2>
+            <article className="experience">
+              <div className="left">
+                <p className="school">Washington University in St. Louis</p>
+                <p className="degree">B.S. in Computer Science, 2014</p>
+                <p className="degree">Minor in Psychology</p>
+              </div>
+              <div className="right">
+                <p className="degree">Cumulative GPA: 3.48/4.00</p>
+                <p className="degree">Major GPA: 3.78/4.00</p>
+              </div>
+            </article>
+          </section>
+          <section className="skills">
+            <h2>Technical Skills</h2>
+            <article className="experience">
+              <p>Javascript, HTML, CSS, GIT, SQL, Amazon Web Services, Python, Ruby</p>
+            </article>
+          </section>
         </section>
       </main>
       <footer>
