@@ -1,5 +1,6 @@
 import React from 'react';
 import Hourglass from '../components/Hourglass';
+import Social from '../components/Social';
 import {
   SiteTitle,
   Navigation
@@ -13,6 +14,7 @@ function Home() {
       <SiteTitle />
       <Navigation />
       <Hourglass />
+      <Social />
     </div>
   );
 }
