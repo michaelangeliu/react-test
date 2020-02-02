@@ -93,16 +93,16 @@ article.experience {
 .other-experience {
   display: flex;
   .education {
-    width: 65%;
-    .experience {
-      display: flex;
-      .left {
-        width: 60%;
-      }
-      .right {
-        width: 40%;
-      }
-    }
+    width: 50%;
+    // .experience {
+    //   display: flex;
+    //   .left {
+    //     width: 60%;
+    //   }
+    //   .right {
+    //     width: 40%;
+    //   }
+    // }
     .institution {
       font-size: 1rem;
       font-weight: 500;
@@ -112,7 +112,7 @@ article.experience {
     }
   }
   .skills {
-    width: 35%;
+    width: 50%;
   }
 }
 
@@ -120,7 +120,7 @@ article.experience {
 
 @page {
   size: 8.5in 11in;
-  margin: 0.7in 1in;
+  margin: 0.5in 1in;
 
   background: white;
 }
