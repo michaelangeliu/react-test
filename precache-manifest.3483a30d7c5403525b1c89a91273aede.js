@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "05b5b519bb4e67984067ed2cbb4ed7af",
+    "revision": "64d84edbef184aa209b381087a6d4922",
     "url": "/react-test/index.html"
   },
   {
-    "revision": "50c0eca6f0027cfcce8f",
-    "url": "/react-test/static/css/main.8e27171e.chunk.css"
+    "revision": "47d0061fefb42978c8b0",
+    "url": "/react-test/static/css/main.8df73b96.chunk.css"
   },
   {
     "revision": "bed1559b93fd22298d8d",
     "url": "/react-test/static/js/2.d28c49d7.chunk.js"
   },
   {
-    "revision": "50c0eca6f0027cfcce8f",
-    "url": "/react-test/static/js/main.b4eac192.chunk.js"
+    "revision": "47d0061fefb42978c8b0",
+    "url": "/react-test/static/js/main.1b8be4de.chunk.js"
   },
   {
     "revision": "91e87af5d0bfc2a79f8e",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-test/static/media/github.6399fb8e.svg"
   },
   {
-    "revision": "4c267d881364ed93deebd404711fcf5d",
-    "url": "/react-test/static/media/instagram.4c267d88.svg"
+    "revision": "197ff00d665dd0261648af45c1990d18",
+    "url": "/react-test/static/media/instagram.197ff00d.svg"
   },
   {
     "revision": "2c52441b11ee568042dff6e9a4d0e712",
